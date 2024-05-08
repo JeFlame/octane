@@ -83,9 +83,11 @@ export default async function (request: NextApiRequest, response: NextApiRespons
             }
         );
 
+        // @ts-ignore (TS7016) There is no type definition for this at DefinitelyTyped.
         if (config.returnSignature !== undefined) {
             if (!await isReturnedSignatureAllowed(
                 request,
+                // @ts-ignore (TS7016) There is no type definition for this at DefinitelyTyped.
                 config.returnSignature as ReturnSignatureConfigField
             )) {
                 response.status(400).send({ status: 'error', message: 'anti-spam check failed' });
