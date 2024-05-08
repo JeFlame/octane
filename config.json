@@ -17,8 +17,8 @@
         "createAssociatedTokenAccount": {
             "tokens": [
                 {
-                    "mint": "BrJWVCzXvuBMwagAgEgzJKpUEc2XbAK3sBVC3tCZdPEc",
-                    "account": "BXHQpoaGAAcEJ33x9w2SEvEtpQYksekPGfHcku7CNoFx",
+                    "mint": "__PLACEHOLDER__",
+                    "account": "__PLACEHOLDER__",
                     "decimals": 9,
                     "fee": 10000000
                 }
@@ -27,8 +27,8 @@
         "whirlpoolsSwap": {
             "tokens": [
                 {
-                    "mint": "BrJWVCzXvuBMwagAgEgzJKpUEc2XbAK3sBVC3tCZdPEc",
-                    "account": "BXHQpoaGAAcEJ33x9w2SEvEtpQYksekPGfHcku7CNoFx",
+                    "mint": "__PLACEHOLDER__",
+                    "account": "__PLACEHOLDER__",
                     "decimals": 9,
                     "fee": 10000000
                 }
